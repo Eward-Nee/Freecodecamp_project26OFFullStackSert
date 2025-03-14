@@ -11,24 +11,30 @@
     justify-content: space-between;
     width: 200px;
     height: 200px;
+    background-color: beige;
 }
 
 .left,
 .right,
 .middle {
     display: flex;
+    width: 30%;
+    aspect-ratio: 1/1;
 }
 
 .left {
     align-self: flex-start;
+    background-color: red;
 }
 
 .middle {
     align-self: center;
     flex-direction: column;
+    background-color: green;
 }
 
 .right {
     align-self: flex-end;
+    background-color: blue;
 
 }
